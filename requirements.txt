@@ -1,0 +1,13 @@
+# Gestor de Países - Programación 1
+# Dependencias del proyecto
+
+# Para trabajar con CSV de manera más robusta (opcional)
+# pandas==2.1.3
+
+# Para testing (opcional)
+# pytest==7.4.3
+
+# Nota: Este proyecto usa principalmente bibliotecas estándar de Python
+# - csv (para lectura de archivos CSV)
+# - os (para operaciones del sistema)
+# - sys (para argumentos del sistema)
