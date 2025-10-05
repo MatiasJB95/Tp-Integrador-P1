@@ -46,6 +46,15 @@ Países por continente:
   • Oceanía: 14 países
 ```
 
+## 📂 Documentación adicional
+
+En la carpeta [`/docs`](./docs) se encuentra el material completo del trabajo:
+
+- 📑 [Informe técnico](./docs/Informe-Teorico.pdf) – Marco teórico con referencias y explicación de conceptos.
+- 🔀 [Diagrama de flujo](./docs/Diagrama-TP1.drawio) – Representación gráfica del programa.
+- 📸 [Capturas de ejecución](./docs/capturas) – Ejemplos de las distintas funcionalidades.
+- 💬 [Conclusiones grupales](./docs/Conclusiones-Grupales.pdf) – Reflexión sobre aprendizajes técnicos y trabajo en equipo.
+
 ---
 
 ## 👥 Participación de los integrantes
