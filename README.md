@@ -46,6 +46,14 @@ Países por continente:
   • Oceanía: 14 países
 ```
 
+## 🎥 Presentación
+
+Podés ver la presentación completa del proyecto en el siguiente video:  
+
+▶️ **[Ver Presentación en YouTube](https://www.youtube.com/watch?v=FHrTiB_DdRs)**
+
+---
+
 ## 📂 Documentación
 
 En la carpeta [`/docs`](./docs) se encuentra el material completo del trabajo:
@@ -57,13 +65,6 @@ En la carpeta [`/docs`](./docs) se encuentra el material completo del trabajo:
 
 ---
 
-## 🎬 Demo
-
-Haz clic en la imagen para ver el video de demostración del Gestor de Países 👇  
-
-[![Ver demo en YouTube](https://img.youtube.com/vi/FHrTiB_DdRs/0.jpg)](https://www.youtube.com/watch?v=FHrTiB_DdRs)
-
----
 
 ## 👥 Participación de los integrantes
 - **Iván Alejandro Villafañe (Comision 12)**: desarrollo de código, pruebas y validaciones.  
