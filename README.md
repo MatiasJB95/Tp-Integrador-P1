@@ -46,7 +46,7 @@ Países por continente:
   • Oceanía: 14 países
 ```
 
-## 📂 Documentación adicional
+## 📂 Documentación
 
 En la carpeta [`/docs`](./docs) se encuentra el material completo del trabajo:
 
