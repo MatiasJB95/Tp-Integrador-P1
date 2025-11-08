@@ -50,7 +50,7 @@ Países por continente:
 
 En la carpeta [`/docs`](./docs) se encuentra el material completo del trabajo:
 
-- 📑 [Informe técnico](./docs/Informe-Teorico.pdf) – Marco teórico con referencias y explicación de conceptos.
+- 📑 [Marco teórico](./docs/Marco-Teorico.pdf) – Marco teórico con referencias y explicación de conceptos.
 - 🔀 [Diagrama de flujo](./docs/diagrama-de-flujo) – Representación gráfica del programa.
 - 📸 [Capturas de ejecución](./docs/capturas) – Ejemplos de las distintas funcionalidades.
 - 💬 [Conclusiones grupales](./docs/Conclusiones-Grupales.pdf) – Reflexión sobre aprendizajes técnicos y trabajo en equipo.
