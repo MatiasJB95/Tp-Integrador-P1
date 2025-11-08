@@ -58,8 +58,8 @@ En la carpeta [`/docs`](./docs) se encuentra el material completo del trabajo:
 ---
 
 ## 👥 Participación de los integrantes
-- **Iván Alejandro Villafañe**: desarrollo de código, pruebas y validaciones.  
-- **Matías Badano**: lógica de estadísticas, armado del flujo principal y documentación.  
+- **Iván Alejandro Villafañe (Comision 12)**: desarrollo de código, pruebas y validaciones.  
+- **Matías Badano  (Comision 2)**: lógica de estadísticas, armado del flujo principal y documentación.  
 
 ---
 
