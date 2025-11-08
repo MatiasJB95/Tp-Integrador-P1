@@ -57,6 +57,14 @@ En la carpeta [`/docs`](./docs) se encuentra el material completo del trabajo:
 
 ---
 
+## 🎬 Demo
+
+Haz clic en la imagen para ver el video de demostración del Gestor de Países 👇  
+
+[![Ver demo en YouTube](https://img.youtube.com/vi/FHrTiB_DdRs/0.jpg)](https://www.youtube.com/watch?v=FHrTiB_DdRs)
+
+---
+
 ## 👥 Participación de los integrantes
 - **Iván Alejandro Villafañe (Comision 12)**: desarrollo de código, pruebas y validaciones.  
 - **Matías Badano  (Comision 2)**: lógica de estadísticas, armado del flujo principal y documentación.  
