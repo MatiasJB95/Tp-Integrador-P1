@@ -33,20 +33,13 @@ def filtrar_por_continente(paises, continente):
     Returns:
         list: Lista de países del continente especificado
     """
-    return [p for p in paises if p["continente"].lower() == continente.lower()]
+    # Normalizamos ambos textos a minúsculas y sin espacios extra
+    return [p for p in paises if p["continente"].strip().lower() == continente.strip().lower()]
 
 
 def filtrar_por_poblacion(paises, min_poblacion=0, max_poblacion=float('inf')):
     """
     Filtra países por rango de población.
-    
-    Args:
-        paises (list): Lista de diccionarios de países
-        min_poblacion (int): Población mínima
-        max_poblacion (int): Población máxima
-        
-    Returns:
-        list: Lista de países dentro del rango de población
     """
     return [p for p in paises if min_poblacion <= p["poblacion"] <= max_poblacion]
 
@@ -54,16 +47,9 @@ def filtrar_por_poblacion(paises, min_poblacion=0, max_poblacion=float('inf')):
 def filtrar_por_superficie(paises, min_superficie=0, max_superficie=float('inf')):
     """
     Filtra países por rango de superficie.
-    
-    Args:
-        paises (list): Lista de diccionarios de países
-        min_superficie (int): Superficie mínima
-        max_superficie (int): Superficie máxima
-        
-    Returns:
-        list: Lista de países dentro del rango de superficie
     """
     return [p for p in paises if min_superficie <= p["superficie"] <= max_superficie]
+
 
 
 def buscar_pais(paises, nombre):
@@ -150,3 +136,26 @@ def agregar_pais(paises, nombre, poblacion, superficie, continente):
     
     paises.append(nuevo_pais)
     return True
+
+
+def actualizar_pais(paises, nombre, nueva_poblacion=None, nueva_superficie=None):
+    """
+    Actualiza la población y/o superficie de un país existente.
+    
+    Args:
+        paises (list): Lista de diccionarios de países
+        nombre (str): Nombre del país a actualizar
+        nueva_poblacion (int, optional): Nueva población
+        nueva_superficie (int, optional): Nueva superficie
+        
+    Returns:
+        bool: True si se actualizó exitosamente, False si no se encontró el país
+    """
+    for pais in paises:
+        if pais["nombre"].lower() == nombre.lower():
+            if nueva_poblacion is not None:
+                pais["poblacion"] = int(nueva_poblacion)
+            if nueva_superficie is not None:
+                pais["superficie"] = int(nueva_superficie)
+            return True
+    return False
